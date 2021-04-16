@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <div class="order">
+        <img src="img/smallBurger.png" alt="burger" id="order-img">
+        <div class="order-details">
+            <p>Размер:</p>
+            <div class="order-size">
+                <label><input type="radio" name="size" data-size="small" class="radio" checked>Маленький</label>
+                <label><input type="radio" name="size" data-size="big" class="radio">Большой</label>
+            </div>
+            <p>Начинка:</p>
+            <div class="order-filling">
+                <label><input type="radio" name="filling" data-filling="cheese" class="radio" checked>Сыр</label>
+                <label><input type="radio" name="filling" data-filling="salad" class="radio">Салат</label>
+                <label><input type="radio" name="filling" data-filling="potatoes" class="radio">Картофель</label>
+            </div>
+            <p>Дополнительно:</p>
+            <div class="order-addition">
+                <label><input type="checkbox" id="seasoning">Добавить специи</label>
+                <label><input type="checkbox" id="mayonnaise">Добавить майонез</label>
+            </div>
+        </div>
+        <div class="order-total">
+            <p id="total-price"></p>
+            <p id="total-calories"></p>
+        </div>
+    </div>
+</body>
+</html>
