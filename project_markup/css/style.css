@@ -115,7 +115,6 @@ img {
 .cart-item {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .cart-item:not(:last-child){
     margin-bottom: 20px;
@@ -169,4 +168,10 @@ img {
     background-color: transparent;
     border: none;
     border-bottom: 2px solid #fafafa;
+}
+
+.error-block h1 {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
 }
