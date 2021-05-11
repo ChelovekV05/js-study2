@@ -1,3 +1,7 @@
-/node_modules
-/package-lock.json
+/shop/node_modules
+/shop/package-lock.json
+/calculator/node_modules
+/calculator/package-lock.json
+.gitignore
 /.idea
+
